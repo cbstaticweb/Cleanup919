@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wake County Cleanup Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #228B22;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .mission, .events, .gallery {
+            margin: 20px 0;
+        }
+        .mission-item, .event-item {
+            background-color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+        }
+        .gallery p {
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Wake County Cleanup Project</h1>
+        <p>Working together to clean and protect our environment!</p>
+    </header>
+
+    <section class="mission">
+        <h2 class="section-title">Our Mission</h2>
+        <div class="mission-item">
+            <p>Wake County Cleanup Project is dedicated to reducing pollution and cleaning up local parks, rivers, and streets. We aim to raise awareness about environmental sustainability and empower community members to take action in keeping our county clean.</p>
+        </div>
+    </section>
+
+    <section class="events">
+        <h2 class="section-title">Upcoming Events</h2>
+        <div class="event-item">
+            <h3>Park Cleanup - Lake Johnson</h3>
+            <p>Date: October 28, 2024</p>
+            <p>Join us for a community-wide effort to clean up Lake Johnson. Bring gloves, water, and a good attitude!</p>
+        </div>
+        <div class="event-item">
+            <h3>Stream Restoration Workshop</h3>
+            <p>Date: November 15, 2024</p>
+            <p>Learn about the impact of pollution on our waterways and what you can do to help restore the health of Wake County's streams.</p>
+        </div>
+        <div class="event-item">
+            <h3>Annual Cleanup Day</h3>
+            <p>Date: December 3, 2024</p>
+            <p>Our largest event of the year! Come together as we clean up multiple locations across the county and make a big impact.</p>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <h2 class="section-title">Previous Work</h2>
+        <div class="gallery">
+            <img src="cleanup1.jpg" alt="Cleanup Work 1">
+            <p>Community Volunteers Cleaning Lake Johnson</p>
+            <img src="cleanup2.jpg" alt="Cleanup Work 2">
+            <p>Stream Cleanup Near Wake Forest</p>
+            <img src="cleanup3.jpg" alt="Cleanup Work 3">
+            <p>Removing Trash from Local Park</p>
+        </div>
+    </section>
+
+</body>
+</html>
